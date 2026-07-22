@@ -1,6 +1,6 @@
 # Compliance-Data-Validation-Audit-Excel
 
-![Compliance Data Validation Audit Demo](VIDEO)
+![Compliance Data Validation Audit Demo](https://github.com/user-attachments/assets/4ec1e825-7da1-4497-bff6-4d68d63d0c21)
 
 *Compliance Data Validation Audit built in Microsoft Excel*
 
@@ -21,30 +21,24 @@ I kept the original data unchanged on separate raw data worksheets and created a
 * **Record Count and Duplicate Checks:** I confirmed that all records were transferred into Excel and checked that PropertyID and ComplianceRecordID values were unique in the tables where they were used as key fields.
 
 ![Duplicate Key and Record Count Checks](https://github.com/user-attachments/assets/6555948f-cced-4699-8435-f9ac7100fe80)
-
 *Duplicate key and record count checks in Excel*
 
 
 * **XLOOKUP Relationship Check:** I used XLOOKUP to confirm that every PropertyID in the compliance table matched an existing property in the properties table.
 
 ![XLOOKUP Property Relationship Check](https://github.com/user-attachments/assets/25a65fff-34bc-4235-996b-9b68987469a9)
-
 *Validating property relationships using XLOOKUP*
 
 
 * **Blank and Business Rule Checks:** I used COUNTIFS, IF statements and conditional formatting to identify missing expiry dates and records where a document was marked as received but the ExpiryDate was blank.
 
 ![Blank and Business Rule Checks](https://github.com/user-attachments/assets/d438a93a-67bd-45dd-95dd-bed1210d873f)
-
-
-
 *Audit of blank fields, missing expiry dates and inconsistent statuses*
 
 
 * **Pivot Table Analysis:** I used a Pivot Table to compare total compliance records with completed expiry dates and identify missing dates by certificate type.
 
 ![Pivot Table Analysis](https://github.com/user-attachments/assets/f58ed3ed-58e9-4149-b7f7-5f8d01ec90aa)
-
 *Missing expiry dates by certificate type*
 
 
@@ -52,7 +46,6 @@ I kept the original data unchanged on separate raw data worksheets and created a
 
 
 ![EPC Rating Validation](https://github.com/user-attachments/assets/a272d976-8dd7-48c2-9e2e-1269b1ecfec7)
-
 *EPC rating validation against the expected A–G range*
 
 
@@ -79,7 +72,6 @@ It identified:
 
 
 ![Compliance Data Validation Audit Summary](https://github.com/user-attachments/assets/ca703b10-d63e-4868-9a9f-56b96a30a8e8)
-
 *Compliance Data Validation Audit Summary*
 
 The audit showed that some records appeared complete or valid even though important expiry date information was missing.
