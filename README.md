@@ -48,7 +48,7 @@ I kept the original data unchanged on separate raw data worksheets and created a
 
 * **EPC Rating Validation:** I checked all EPC records against the expected A–G rating range and confirmed that there were no missing or invalid ratings.
 
-![EPC Rating Validation](https://github.com/user-attachments/assets/6b64c033-d182-42c9-9674-52d68d1ad25b))
+![EPC Rating Validation](https://github.com/user-attachments/assets/fbce1caf-b42e-4fc8-a677-897a3928e9d0)
 
 *EPC rating validation against the expected A–G range*
 
