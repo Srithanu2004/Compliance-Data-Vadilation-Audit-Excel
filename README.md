@@ -27,12 +27,18 @@ I kept the original data unchanged on separate raw data worksheets and created a
 
 * **XLOOKUP Relationship Check:** I used XLOOKUP to confirm that every PropertyID in the compliance table matched an existing property in the properties table.
 
+![XLOOKUP Property Relationship Check](https://github.com/user-attachments/assets/25a65fff-34bc-4235-996b-9b68987469a9)
+
+*Validating property relationships using XLOOKUP*
+
 
 * **Blank and Business Rule Checks:** I used COUNTIFS, IF statements and conditional formatting to identify missing expiry dates and records where a document was marked as received but the ExpiryDate was blank.
 
-![XLOOKUP Property Relationship Check](https://github.com/user-attachments/assets/25a65fff-34bc-4235-996b-9b68987469a9)
+![Blank and Business Rule Checks](https://github.com/user-attachments/assets/3ce795a5-58e8-4a86-adc5-b420496bb8c9)
 
-*Validating property relationships using XLOOKUP and COUNTIFS*
+
+*Audit of blank fields, missing expiry dates and inconsistent statuses*
+
 
 * **Pivot Table Analysis:** I used a Pivot Table to compare total compliance records with completed expiry dates and identify missing dates by certificate type.
 
