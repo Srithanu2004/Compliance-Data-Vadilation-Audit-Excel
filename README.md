@@ -34,7 +34,8 @@ I kept the original data unchanged on separate raw data worksheets and created a
 
 * **Blank and Business Rule Checks:** I used COUNTIFS, IF statements and conditional formatting to identify missing expiry dates and records where a document was marked as received but the ExpiryDate was blank.
 
-![Blank and Business Rule Checks](https://github.com/user-attachments/assets/3ce795a5-58e8-4a86-adc5-b420496bb8c9)
+![Blank and Business Rule Checks](https://github.com/user-attachments/assets/d438a93a-67bd-45dd-95dd-bed1210d873f)
+
 
 
 *Audit of blank fields, missing expiry dates and inconsistent statuses*
