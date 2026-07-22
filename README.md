@@ -64,11 +64,13 @@ It identified:
 
 * 1,758 compliance records reviewed across 210 properties
 * 50 compliance records with a missing ExpiryDate
-* 49 records where DocumentReceived was Yes but ExpiryDate was blank
-* 37 records where the compliance status did not identify the missing expiry date
+* 49 of these records were marked as DocumentReceived = Yes, while 1 was marked as DocumentReceived = No
+* Of the 50 records with a missing ExpiryDate, 13 were correctly flagged as Missing expiry and 37 had a status that did not identify the issue
 * No duplicate PropertyID or ComplianceRecordID key values
-* No PropertyIDs in the compliance table that were missing from the properties table
+* No PropertyIDs in the compliance table were missing from the properties table
 * 218 EPC records with ratings within the valid A–G range
+
+
 
 
 ![Compliance Data Validation Audit Summary](https://github.com/user-attachments/assets/ca703b10-d63e-4868-9a9f-56b96a30a8e8)
