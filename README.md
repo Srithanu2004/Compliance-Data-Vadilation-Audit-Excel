@@ -74,7 +74,7 @@ It identified:
 * No PropertyIDs in the compliance table that were missing from the properties table
 * 218 EPC records with ratings within the valid A–G range
 
-![Compliance Data Validation Audit Summary](https://github.com/user-attachments/assets/0e51ce57-fe28-4489-b74e-5da80f56e732))
+![Compliance Data Validation Audit Summary] (https://github.com/user-attachments/assets/db95853d-a79f-4522-adbe-64bdc932d4a3)
 
 *Compliance Data Validation Audit Summary*
 
