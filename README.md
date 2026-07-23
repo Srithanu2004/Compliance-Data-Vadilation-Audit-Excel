@@ -8,7 +8,7 @@
 
 This project demonstrates how Excel can be used to validate housing compliance data and identify issues before the data is used for reporting.
 
-I used the same synthetic dataset as in my [Power BI Compliance & Safety Dashboard](https://github.com/EkatarinaMail/Compliance-Safety-Dashboard-PowerBI-SQLServer), containing 210 properties and 1,758 compliance records.
+I used the same synthetic dataset as in my [Power BI Compliance & Safety Dashboard](https://github.com/EkatarinaMail/Housing-Compliance-Dashboard-PowerBI-SQL), containing 210 properties and 1,758 compliance records.
 
 The goal was to check whether the underlying data was complete, consistent and reliable enough for compliance reporting.
 
